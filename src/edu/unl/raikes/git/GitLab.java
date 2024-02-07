@@ -1,11 +1,8 @@
 package edu.unl.raikes.git;
 
 public class GitLab {
-
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        GitLabHelper helper = new GitLabHelper("Tyler", "Minh");
+        GitLabHelper helper = new GitLabHelper(new String[] { "Name1", "Name2" });
         helper.PrintWelcomeMessage();
     }
-
 }
